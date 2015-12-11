@@ -3,6 +3,8 @@ background-image: url(img/cloud_bg.png);
     font-family: "Super Mario 256";
     text-align: center;
 	font-size: 50px;
+	height:;
+	min-width: 1500px;
 }
 
 h1 {	
