@@ -117,6 +117,7 @@ h3 {
 	float: left;
 	overflow: hidden;
 	max-height: 286px;
+	padding-top: 23px;
 }
 
 #footer {
