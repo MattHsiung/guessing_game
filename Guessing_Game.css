@@ -7,6 +7,11 @@ background-image: url(img/cloud_bg.png);
 	min-width: 1500px;
 }
 
+@font-face {
+    font-family: SuperMario256;
+    src: url('SuperMario256.ttf');
+}
+
 h1 {	
 	text-align: center;
 	font-size: 60px;
