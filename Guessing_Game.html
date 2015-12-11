@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+</head>
 <body>
 <link rel="stylesheet" type="text/css" href="Guessing_Game.css">
 
 <h1>
-<p style="text-align:center;">
-GUESSING
-<img  src="img/Question_Block.gif" style="width:150px;height:150px;">
-GAME
-</p>
+<img src="img/Guessing_icon.png">
+<img  src="img/Question_Block_icon.gif" style="width:150px;height:150px;">
+<img src="img/Game_icon.png">
+<p id="turn"><img src="img/life.png"><a id="lives"> x5</a></p>
 </h1>
 
-<p>
-Guess a number between 1 and 100!
-</p>
+<p id="message">Guess a number between 1 and 100!</p>
 
 <h3>
-Hot		Cold
+<span id="guessMessage">Good luck!</span>
 </h3>
+
 <h2>
 	<form>
-		<input type="text" name="input" size="3">
+		<input id="input" type="text" name="input" size="1" value= >
 	</form>
 </h2>
 
-<p>
-	<button type="button" style= "font-size:40px;color:green;" onclick="guess()">Guess!</button>
-	<button type="button" style= "font-size:40px;color:red;" onclick="reset()">Reset</button>
+<p id="btn">
+	<input id="guess" type="image" src="img/guess.png" />
+	<input id="reset" type="image" src="img/reset.png" />
+	<br>
+	<g style="color: green">Guess</g>
+	&emsp;&emsp;
+	<g style="color: red">Reset</g>
 </p>
-<script>
-</script>
 
+<p id="star">45</p>
+<p id="hint">Hint!<br><img id="hintBtn" src="img/coin.png"></p>
 
+<footer id="ground">Created by Matt Hsiung</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="guessingGame.js"></script>
 </body>
 <html>
 
