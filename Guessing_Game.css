@@ -1,15 +1,15 @@
-@font-face {
-    font-family: SuperMario256;
-    src: url('SuperMario256.ttf');
-}
-
 body {
 background-image: url(img/cloud_bg.png);
-    font-family: "Super Mario 256";
+    font-family: "SuperMario256";
     text-align: center;
 	font-size: 50px;
 	height:;
-	min-width: 1500px;
+	min-width: 1440px;
+}
+
+@font-face {
+    font-family: "SuperMario256";
+    src: url('SuperMario256.ttf') format('truetype');
 }
 
 h1 {	
